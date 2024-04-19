@@ -1,12 +1,12 @@
 import { useDispatch } from "react-redux";
 import { nextStep } from "../planSlice";
 
-import Container from "../../ui/Container";
-import Title from "../../ui/Title";
+import Container from "../../components/Container";
+import Title from "../../components/Title";
 import SwitchBtn from "./SwitchBtn";
 import BtnPlan from "./BtnPlan";
 import NextBtn from "../../components/NextBtn";
-import BoxPlan from "../../ui/BoxPlan";
+import BoxPlan from "../../components/BoxPlan";
 import UpAnim from "../../components/UpAnim";
 
 export default function SelectPlane() {

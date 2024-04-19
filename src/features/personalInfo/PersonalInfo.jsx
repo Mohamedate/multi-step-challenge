@@ -1,6 +1,6 @@
-import Title from "../../ui/Title";
+import Title from "../../components/Title";
 import Input from "./Input";
-import Container from "../../ui/Container";
+import Container from "../../components/Container";
 import { useDispatch, useSelector } from "react-redux";
 import {
   setName,
@@ -15,7 +15,7 @@ import {
   getPhoneError,
 } from "../planSlice";
 import NextBtn from "../../components/NextBtn";
-import BoxPlan from "../../ui/BoxPlan";
+import BoxPlan from "../../components/BoxPlan";
 import UpAnim from "../../components/UpAnim";
 
 export default function PersonalInfo() {

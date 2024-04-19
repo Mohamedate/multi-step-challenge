@@ -16,7 +16,7 @@ export default function BtnPlan({ image, name, price }) {
   return (
     <button
       onClick={() => handleClick({ name, price })}
-      className={`flex w-full flex-row gap-4 rounded-md border-[1px] border-light-gray p-4 transition-all duration-300 hover:border-purplish-blue hover:bg-mag md:flex-col md:gap-12 ${btnStyle}`}
+      className={`flex w-full flex-row items-center gap-4 rounded-md border-[1px] border-light-gray p-2 transition-all duration-300 hover:border-purplish-blue hover:bg-mag md:flex-col md:gap-12 md:p-4 ${btnStyle}`}
     >
       <img src={image} alt={name} />
       <div className=" flex flex-col items-start ">

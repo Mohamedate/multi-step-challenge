@@ -3,12 +3,12 @@ import Footer from "./ui/Footer";
 
 function App() {
   return (
-    <>
-      <main className="md:mt-24 ">
+    <div className=" flex h-screen flex-col justify-between">
+      <main className="md:mt-20 ">
         <Form />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

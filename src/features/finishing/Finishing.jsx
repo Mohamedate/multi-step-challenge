@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
-import BoxPlan from "../../ui/BoxPlan";
-import Container from "../../ui/Container";
-import Title from "../../ui/Title";
+import BoxPlan from "../../components/BoxPlan";
+import Container from "../../components/Container";
+import Title from "../../components/Title";
 import NextBtn from "../../components/NextBtn";
 import { changePlan, extraPlans, selectedPlan } from "../planSlice";
 import FinishExtraPlan from "./FinishExtraPlan";

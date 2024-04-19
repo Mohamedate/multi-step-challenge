@@ -1,6 +1,6 @@
-import Container from "../../ui/Container";
-import BoxPlan from "../../ui/BoxPlan";
-import Title from "../../ui/Title";
+import Container from "../../components/Container";
+import BoxPlan from "../../components/BoxPlan";
+import Title from "../../components/Title";
 
 import { useDispatch, useSelector } from "react-redux";
 import { extraPlans, nextStep } from "../planSlice";
