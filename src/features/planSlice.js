@@ -53,16 +53,16 @@ export const planInfoSlice = createSlice({
       state.phoneNumber = action.payload;
     },
     submit: (state) => {
-      // state.userError = Validation.checkName(state.userName);
-      // state.emailError = Validation.checkEmail(state.email);
-      // state.phoneError = Validation.checkPhone(state.phoneNumber);
+      state.userError = Validation.checkName(state.userName);
+      state.emailError = Validation.checkEmail(state.email);
+      state.phoneError = Validation.checkPhone(state.phoneNumber);
 
-      // if (
-      //   state.userError === "" &&
-      //   state.emailError === "" &&
-      //   state.phoneError === ""
-      // )
-      state.step += 1;
+      if (
+        state.userError === "" &&
+        state.emailError === "" &&
+        state.phoneError === ""
+      )
+        state.step += 1;
     },
     nextStep: (state) => {
       state.step += 1;
