@@ -17,7 +17,7 @@ export default function SingleExtraPlan({ plan }) {
   return (
     <label htmlFor={plan.id} className={labelStyle}>
       <input
-        className=" scale-150 accent-purplish-blue"
+        className=" scale-125 accent-purplish-blue md:scale-150"
         type="checkbox"
         checked={plan.checked}
         id={plan.id}
