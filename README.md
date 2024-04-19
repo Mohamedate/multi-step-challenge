@@ -56,9 +56,7 @@ Users should be able to:
 
 ### What I learned
 
-I have learned how to handle state in many cases in the project as how to conect
-the same state with different component and how make decision that this state
-should be gloabal in my store or just enouph to be local in my component
+I've learned how to manage state in various project scenarios. This includes understanding how to connect the same state to different components and how to decide whether the state should be globally stored or remain local to a specific component.
 
 ### Continued development
 
