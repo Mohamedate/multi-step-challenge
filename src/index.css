@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.step-anim {
+  animation: step-anim 2s linear infinite;
+}
+
+@keyframes step-anim {
+  from {
+    opacity: 1;
+    scale: 1.2;
+  }
+  to {
+    opacity: 0;
+    scale: 1.8;
+  }
+}

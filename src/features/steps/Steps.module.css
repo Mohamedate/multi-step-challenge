@@ -1,0 +1,13 @@
+.steps {
+  background: url("../../../images/bg-sidebar-desktop.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .steps {
+    background: url("../../../images/bg-sidebar-mobile.svg") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
