@@ -81,7 +81,7 @@ export default function Finishing() {
                   </p>
                   <button
                     onClick={changePlanHandler}
-                    className=" w-fit text-cool-gray underline "
+                    className=" w-fit text-cool-gray underline hover:text-purplish-blue"
                   >
                     Change
                   </button>

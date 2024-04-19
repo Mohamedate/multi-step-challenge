@@ -67,4 +67,4 @@ I currently focus on React frameworks and the related frameworks surrounding it,
 ## Author
 
 - My website - [Mohamed Atef](https://atef.vercel.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Mohamedate](https://www.frontendmentor.io/profile/Mohamedate)
