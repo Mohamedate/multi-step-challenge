@@ -17,7 +17,7 @@ export default function NextBtn({ onClickHandle }) {
   );
 
   return (
-    <div className=" absolute bottom-0 flex w-full justify-between bg-white p-4  md:p-0">
+    <div className=" absolute bottom-0 flex w-full justify-between bg-white p-4 md:relative  md:p-0">
       {goBackBtn}
       <button
         onClick={onClickHandle}
